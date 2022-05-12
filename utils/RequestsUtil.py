@@ -1,5 +1,7 @@
 import requests
 
+
+
 #1.get封装
 def requests_get(url,headers=None):
     r = requests.get(url,headers = headers)
