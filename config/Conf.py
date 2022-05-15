@@ -4,14 +4,14 @@ from utils.YamlUtil import YamReader
 #获取项目基本目录
 #获取当前目录绝对路径
 current = os.path.abspath(__file__)
-print(current)
+#print(current)
 #获取至项目层AutoStudy
 BASE_DIR  = os.path.dirname(os.path.dirname(current))
-print(BASE_DIR)
+#print(BASE_DIR)
 _config_path = BASE_DIR + os.sep + "config"
-print(_config_path)
+#print(_config_path)
 _config_file = _config_path + os.sep + "conf.yml"
-print(_config_file)
+#print(_config_file)
 
 def get_config_path():
     return _config_path
